@@ -1,9 +1,8 @@
 ---
-name: Example Gallery
+name: Global-Ocean-Temperature
 description: >-
-  An example gallery of notebooks used for debugging the Pangeo Gallery
-  infrastructure.
-gallery_repository: pangeo-gallery/pangeo-gallery
+  An example gallery of notebooks reading and processing daily, global, 1 km, ocean temperature data (NASA JPL PODAAC MUR SST).
+gallery_repository: pangeo-gallery/Global-Ocean-Temperature
 binder_url: "https://binder.pangeo.io"
 binder_repo: pangeo-gallery/default-binder
 binder_ref: master

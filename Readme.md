@@ -1,20 +1,27 @@
-# Pangeo Gallery Template
+# Tutorial for MUR SST on AWS  
 
-This repository stores an example gallery repo for the Pangeo Gallery.
-It is configured to automatically build itself using
-[binderbot](https://github.com/pangeo-gallery/binderbot).
-It is linked, via a git submodule, the the
-[gallery website repo](https://github.com/pangeo-gallery/pangeo-gallery).
-Whenever the notebooks are updated in this, repository
-dispatch is used to trigger a gallery rebuild. This keeps
-[gallery.pangeo.io](http://gallery.pangeo.io) always in sync with this repo.
+- Funding: Interagency Implementation and Advanced Concepts Team [IMPACT](https://earthdata.nasa.gov/esds/impact) for the Earth Science Data Systems (ESDS) program and AWS Public Dataset Program
 
-The repo contains the following elements:
+Credits: Tutorial development
+* [Dr. Chelle Gentemann](mailto:gentemann@faralloninstitute.org) -  [Twitter](https://twitter.com/ChelleGentemann)   - Farallon Institute
+* [Dr. Rich Signell](mailto:rsignell@usgs.gov) - [Twitter](https://twitter.com/rsignell) - USGS
+* [Dr. Ryan Abernathey](mailto:rpa@ldeo.columbia.edu) - [Twitter](https://twitter.com/rabernat) - LDEO
 
-- A set of jupyter notebooks, numbered in the order that we want them to
-  appear on the gallery website.
-- A configuration file, `binder-gallery.yaml`, which provides important
-  configuration parameters (see [pangeo gallery documentation](http://gallery.pangeo.io)).
-- A thumbnail image (`thumbnail.png`), a 200 x 200 px image which represents
-  the gallery content.
-- Github workflows, which make the magic happen! (Don't touch these.)
+
+Credits: Creating of the Zarr MUR SST dataset.  
+
+* [Aimee Barciauskas](mailto:aimee@developmentseed.org) - [Twitter](https://twitter.com/_aimeeb) - Development Seed
+* [Dr. Rich Signell](mailto:rsignell@usgs.gov) - [Twitter](https://twitter.com/rsignell) - USGS
+* [Dr. Chelle Gentemann](mailto:gentemann@faralloninstitute.org)  -  [Twitter](https://twitter.com/ChelleGentemann) - Farallon Institute
+* [Joseph Flasher](mailto:jflasher@amazon.com) [Twitter](https://twitter.com/joseph_flasher) - AWS
+
+Credits: Tutorial review and comments.
+* [Dr. Ed Armstrong](mailto:edward.m.armstrong@jpl.nasa.gov) - JPL PODAAC
+
+-------------
+
+## Please note that this is global, 1 km, daily data.  This is a very large dataset and the analyses below can take up to 5-10 minutes
+
+## [MUR SST](https://podaac.jpl.nasa.gov/Multi-scale_Ultra-high_Resolution_MUR-SST) [AWS Public dataset program](https://registry.opendata.aws/mur/) 
+
+
